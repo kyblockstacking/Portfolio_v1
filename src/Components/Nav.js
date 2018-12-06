@@ -18,8 +18,17 @@ const style = {
 
 export default class Nav extends Component {
 
+
+    componentDidMount() {
+        window.addEventListener('hashchange', this.handleEvent);
+    };
+
+    componentWillUnmount() {
+        window.removeEventListener('hashchange', this.handleEvent);
+    };
+
     handleEvent = () => {
-        console.log(window.location)
+        console.log(window.location.href)
         if (window.location.pathname === "/LinkedIn") {
             console.log("kevin")
         }
@@ -37,11 +46,11 @@ export default class Nav extends Component {
                 <div>
                     <Link to='LinkedIn' onClick={this.handleEvent} style={style.Link}>LinkedIn</Link>
                     <span style={style.Link}>&nbsp;|&nbsp;</span>
-                    <Link to='/Projects' style={style.Link}>Projects</Link>
+                    <Link to='/Projects' onClick={this.handleEvent} style={style.Link}>Projects</Link>
                     <span style={style.Link}>&nbsp;|&nbsp;</span>
-                    <Link to='GitHub' style={style.Link}>GitHub</Link>
+                    <Link to='GitHub' onClick={this.handleEvent} style={style.Link}>GitHub</Link>
                     <span style={style.Link}>&nbsp;|&nbsp;</span>
-                    <Link to='/' style={style.Link}>Home</Link>
+                    <Link to='/' onClick={this.handleEvent} style={style.Link}>Home</Link>
                 </div>
 
             </div>
