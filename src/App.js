@@ -9,7 +9,7 @@ import Projects from './Components/Projects';
 import Information from './Components/Information';
 
 const background = {
-  backgroundImage: 'url("./images/background3.jpg")',
+  backgroundImage: 'url("./images/background/background.jpg")',
   width: '100%',
   height: '100vh',
   backgroundSize: '100% 100%',

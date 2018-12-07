@@ -4,7 +4,8 @@ export default class Home extends Component {
     state = {
         homeClass: 'animated slideInDown',
         homeStyle: {
-            textAlign: 'center'
+            textAlign: 'center',
+            paddingTop: '15%'
         }
     };
 
