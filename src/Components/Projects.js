@@ -8,15 +8,17 @@ export default class Projects extends Component {
             maxWidth: '50vw',
             marginLeft: '25vw',
             marginRight: '25vw',
-            paddingTop: '20vh'
+            boxShadow: '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
         }
     };
 
     render() {
         return (
-            <div style={this.state.projectCarousel} className="animated bounceInDown">
+            <div className="animated bounceInDown">
 
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <div style={{ paddingTop: '20vh' }} />
+
+                <div style={this.state.projectCarousel} id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
