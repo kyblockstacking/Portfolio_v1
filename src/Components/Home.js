@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Home extends Component {
     state = {
-        homeClass: 'animated slideInDown',
+        homeClass: 'slide-in-top',
         homeStyle: {
             textAlign: 'center',
             paddingTop: '15%'

@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 export default class Projects extends Component {
 
     state = {
+        projectWrapperStyle: {
+            paddingTop: '20vh'
+        },
         projectCarousel: {
             maxHeight: '50vh',
             maxWidth: '50vw',
@@ -12,13 +15,14 @@ export default class Projects extends Component {
         }
     };
 
+
+
+
     render() {
         return (
-            <div className="animated bounceInDown">
+            <div className='projectWrapper' style={this.state.projectWrapperStyle}>
 
-                <div style={{ paddingTop: '20vh' }} />
-
-                <div style={this.state.projectCarousel} id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <div style={this.state.projectCarousel} id="carouselExampleIndicators" className="carousel slide slide-in-top" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
