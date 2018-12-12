@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import ThreaderZZZ from '../images/projects/ThreaderZZZ.jpg';
+import Pickee from '../images/projects/Pickee.jpg';
+
 export default class Projects extends Component {
 
     state = {
@@ -26,10 +29,10 @@ export default class Projects extends Component {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="d-block w-100" src="./images/projects/ThreaderZZZ.jpg" alt="ThreaderZZZ" />
+                            <img className="d-block w-100" src={ThreaderZZZ} alt="ThreaderZZZ" />
                         </div>
                         <div className="carousel-item">
-                            <img className="d-block w-100" src="./images/projects/Pickee.jpg" alt="Pickee" />
+                            <img className="d-block w-100" src={Pickee} alt="Pickee" />
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
