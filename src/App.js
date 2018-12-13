@@ -8,7 +8,6 @@ import Home from './Components/Home';
 import GitHub from './Components/GitHub';
 import Projects from './Components/Projects';
 import Information from './Components/Information';
-import Me from './Components/Me';
 
 const background = {
   backgroundImage: `url(${require("./images/background/background.jpg")})`,
@@ -23,7 +22,6 @@ class App extends Component {
     return (
       <Router>
         <div className='App' style={background}>
-          <Me />
           <Nav />
           <Switch>
             <Route exact path='/' component={Home}></Route>
