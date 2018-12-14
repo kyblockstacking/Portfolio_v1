@@ -8,15 +8,15 @@ export default class Projects extends Component {
 
     state = {
         projectWrapperStyle: {
-            paddingTop: '7%'
+            paddingTop: '7%',
         },
     };
 
     render() {
         return (
-            <div className='projectWrapper' style={this.state.projectWrapperStyle}>
+            <div className='projectWrapper fade-in-fwd' style={this.state.projectWrapperStyle}>
 
-                <div class="polaroid-images">
+                <div className="polaroid-images">
                     <a href="" title="Pickee"><img height="200" src={Pickee} alt="Pickee" title="Pickee" /></a>
                     <a href="" title="ThreaderZZZ"><img height="200" src={ThreaderZZZ} alt="ThreaderZZZ" title="ThreaderZZZ" /></a>
                 </div>
