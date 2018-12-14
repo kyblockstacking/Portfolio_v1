@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import ProfilePicture from '../images/profile/me.JPG';
 
+const profilePictureStyle = {
+    maxHeight: '320px',
+    maxWidth: '260px',
+    margin: '0 15px 30px',
+    padding: '10px 10px',
+    textAlign: 'center',
+    background: 'white',
+    boxShadow: '0 4px 6px rgba(0,0,0,.3)'
+}
+
 export default class Me extends Component {
 
     state = {
@@ -10,11 +20,13 @@ export default class Me extends Component {
         }
     }
 
+
     focusIn = () => {
         this.setState({
             aboutMeClass: 'col-lg-2 focus-in-contract',
             aboutMeStyle: {
-                visibility: 'visible'
+                visibility: 'visible',
+                cursor: 'default'
             }
         });
     };
@@ -28,7 +40,9 @@ export default class Me extends Component {
     render() {
         return (
             <div className='row'>
-                <img onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={{ maxHeight: '260px', maxWidth: '260px' }} src={ProfilePicture} alt="profile" className='col-lg-1' />
+
+                <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid' />
+
                 <p style={this.state.aboutMeStyle} className={this.state.aboutMeClass}>This is me! I am a developer named Kevin. Welcome to my site! :D</p>
             </div>
         );
