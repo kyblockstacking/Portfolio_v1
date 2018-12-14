@@ -16,26 +16,25 @@ export default class Me extends Component {
     state = {
         aboutMeClass: 'col-lg-2',
         aboutMeStyle: {
-            visibility: 'hidden'
-        }
-    }
-
+            visibility: 'hidden',
+        },
+    };
 
     focusIn = () => {
         this.setState({
             aboutMeClass: 'col-lg-2 focus-in-contract',
             aboutMeStyle: {
                 visibility: 'visible',
-                cursor: 'default'
-            }
+                cursor: 'default',
+            },
         });
     };
 
     blurOut = () => {
         this.setState({
             aboutMeClass: 'col-lg-2 blur-out-expand',
-        })
-    }
+        });
+    };
 
     render() {
         return (
@@ -44,6 +43,7 @@ export default class Me extends Component {
                 <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid' />
 
                 <p style={this.state.aboutMeStyle} className={this.state.aboutMeClass}>This is me! I am a developer named Kevin. Welcome to my site! :D</p>
+                
             </div>
         );
     };
