@@ -7,7 +7,7 @@ export default class Projects extends Component {
 
     state = {
         projectWrapperStyle: {
-            paddingTop: '20vh'
+            paddingTop: '7%'
         },
         projectCarousel: {
             maxHeight: '50vh',

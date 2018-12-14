@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Me from './Me';
 
 export default class Nav extends Component {
 
@@ -25,19 +26,21 @@ export default class Nav extends Component {
 
                 <div>
 
-                    <Link to='LinkedIn' style={this.state.linkStyle}>Information</Link>
+                    <Me />
 
-                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+                        <Link to='LinkedIn' style={this.state.linkStyle}>Information</Link>
 
-                    <Link to='/Projects' style={this.state.linkStyle}>Projects</Link>
+                        <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+                        <Link to='/Projects' style={this.state.linkStyle}>Projects</Link>
 
-                    <Link to='GitHub' style={this.state.linkStyle}>GitHub</Link>
+                        <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+                        <Link to='GitHub' style={this.state.linkStyle}>GitHub</Link>
 
-                    <Link to='/' style={this.state.linkStyle}>Home</Link>
+                        <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+
+                        <Link to='/' style={this.state.linkStyle}>Home</Link>
 
                 </div>
 
