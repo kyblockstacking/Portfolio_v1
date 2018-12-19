@@ -40,7 +40,7 @@ export default class Me extends Component {
 
     render() {
         return (
-            <div className='row'>
+            <div className='row' style={{zIndex: '1000'}}>
 
                 <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid' />
 

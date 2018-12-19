@@ -9,7 +9,7 @@ export default class Projects extends Component {
     state = {
         projectWrapperStyle: {
             paddingTop: '7%',
-            marginLeft: '22vw',
+            marginLeft: '25%',
         },
     };
 
@@ -18,8 +18,8 @@ export default class Projects extends Component {
             <div className='projectWrapper fade-in-fwd' style={this.state.projectWrapperStyle}>
 
                 <div className="polaroid-images">
-                    <a href="" title="Pickee"><img height="200" src={Pickee} alt="Pickee" title="Pickee" /></a>
-                    <a href="" title="ThreaderZZZ"><img height="200" src={ThreaderZZZ} alt="ThreaderZZZ" title="ThreaderZZZ" /></a>
+                    <a href="https://kyblockstacking.github.io/Pickee/" title="Pickee"><img height="200" src={Pickee} alt="Pickee" title="Pickee" /></a>
+                    <a href="https://threaderzzz.herokuapp.com/" title="ThreaderZZZ"><img height="200" src={ThreaderZZZ} alt="ThreaderZZZ" title="ThreaderZZZ" /></a>
                 </div>
 
             </div>
