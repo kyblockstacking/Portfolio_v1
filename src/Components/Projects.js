@@ -9,6 +9,7 @@ export default class Projects extends Component {
     state = {
         projectWrapperStyle: {
             paddingTop: '7%',
+            marginLeft: '22vw',
         },
     };
 

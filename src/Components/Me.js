@@ -8,7 +8,7 @@ const profilePictureStyle = {
     padding: '10px 10px',
     textAlign: 'center',
     background: 'white',
-    boxShadow: '0 4px 6px rgba(0,0,0,.3)'
+    boxShadow: '0 4px 6px rgba(0,0,0,.3)',
 }
 
 export default class Me extends Component {
@@ -26,6 +26,8 @@ export default class Me extends Component {
             aboutMeStyle: {
                 visibility: 'visible',
                 cursor: 'default',
+                fontWeight: 'bold',
+                color: 'teal',
             },
         });
     };
@@ -43,7 +45,7 @@ export default class Me extends Component {
                 <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid' />
 
                 <p style={this.state.aboutMeStyle} className={this.state.aboutMeClass}>This is me! I am a developer named Kevin. Welcome to my site! :D</p>
-                
+
             </div>
         );
     };
