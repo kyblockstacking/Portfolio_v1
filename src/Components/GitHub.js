@@ -35,12 +35,10 @@ export default class GitHub extends Component {
                     <li>Pickee</li>
                     <li>Eat lunch</li>
                     <li>Call mom</li>
-                    <li>Tweet about feeding my cow, pugsly</li>
+                    <li>Tweet about feeding my cow</li>
                     <li>Join a hangout in google+</li>
                     <li>Prepare Dinner</li>
                     <li>Eat Dinner</li>
-                    <li>Get ready for bed</li>
-                    <li>Go to bed</li>
                 </ul>
 
             </div>
