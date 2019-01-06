@@ -26,22 +26,34 @@ export default class GitHub extends Component {
 
     render() {
         return (
-            <div className='paper'>
-                <div>GITHUB</div>
-                <div class="lines" />
-                <ul class="list">
-                    <li>Projects</li>
-                    <li>ThreaderZZZ</li>
-                    <li>Pickee</li>
-                    <li>Eat lunch</li>
-                    <li>Call mom</li>
-                    <li>Tweet about feeding my cow</li>
-                    <li>Join a hangout in google+</li>
-                    <li>Prepare Dinner</li>
-                    <li>Eat Dinner</li>
+            <div style={{ padding: '2%'}} className='paper slide-in-elliptic-bottom-fwd'>
+                <div className='lines' />
+                <ul className='list'>
+                    <li style={{ padding: '1.2em' }}>My GitHub</li>
+                    <li>PUT</li>
+                    <li>SOMETHING</li>
+                    <li>ABOUT</li>
+                    <li>YOUR</li>
+                    <li>GITHUB</li>
+                    <li>RIGHT</li>
+                    <li>HERE</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
+                    <li>!</li>
                 </ul>
 
-            </div>
+            </div >
         );
     };
 

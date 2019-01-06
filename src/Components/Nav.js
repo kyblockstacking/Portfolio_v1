@@ -15,32 +15,32 @@ export default class Nav extends Component {
         },
         linkStyle: {
             color: 'white',
-            float: 'right'
+            float: 'right',
         }
     };
 
     render() {
         return (
 
-            <div style={this.state.navStyle}>
+            <div className='tracking-in-contract' style={this.state.navStyle}>
 
                 <div>
 
                     <Me />
 
-                        <Link to='LinkedIn' style={this.state.linkStyle}>Information</Link>
+                    <Link to='LinkedIn' style={this.state.linkStyle}>Information</Link>
 
-                        <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                        <Link to='/Projects' style={this.state.linkStyle}>Projects</Link>
+                    <Link to='/Projects' style={this.state.linkStyle}>Projects</Link>
 
-                        <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                        <Link to='GitHub' style={this.state.linkStyle}>GitHub</Link>
+                    <Link to='GitHub' style={this.state.linkStyle}>GitHub</Link>
 
-                        <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                        <Link to='/' style={this.state.linkStyle}>Home</Link>
+                    <Link to='/' style={this.state.linkStyle}>Home</Link>
 
                 </div>
 

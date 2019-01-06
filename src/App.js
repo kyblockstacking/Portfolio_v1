@@ -15,6 +15,7 @@ const background = {
   height: '100vh',
   backgroundSize: '100% 100%',
   backgroundRepeat: 'no-repeat',
+  overflow: 'hidden',
 };
 
 class App extends Component {
