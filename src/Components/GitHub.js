@@ -1,32 +1,35 @@
 import React, { Component } from 'react';
 
-export default class GitHub extends Component {
+class GitHub extends Component {
+    constructor(props) {
+        super();
 
-    state = {
-        GitHubStyle: {
-            marginLeft: 'auto',
-            marginRight: 'auto',
-        },
-        body: {
-            backgroundColor: '#f5f5f5',
-            width: '600px',
-            margin: '0 auto',
-            padding: '0',
-        },
-        list: {
-            color: '#555',
-            fontSize: '22px',
-            padding: '0 !important',
-            width: '500px',
-            fontFamily: 'courier, monospace',
-            border: '1px solid #dedede',
-        }
-
+        this.state = {
+            GitHubStyle: {
+                marginLeft: 'auto',
+                marginRight: 'auto',
+            },
+            body: {
+                backgroundColor: '#f5f5f5',
+                width: '600px',
+                margin: '0 auto',
+                padding: '0',
+            },
+            list: {
+                color: '#555',
+                fontSize: '22px',
+                padding: '0 !important',
+                width: '500px',
+                fontFamily: 'courier, monospace',
+                border: '1px solid #dedede',
+            },
+        };
+        
     };
 
     render() {
         return (
-            <div style={{ padding: '2%'}} className='paper slide-in-elliptic-bottom-fwd'>
+            <div style={{ padding: '2%' }} className='paper slide-in-elliptic-bottom-fwd'>
                 <div className='lines' />
                 <ul className='list'>
                     <li style={{ padding: '1.2em' }}>My GitHub</li>
@@ -58,3 +61,5 @@ export default class GitHub extends Component {
     };
 
 };
+
+export default GitHub;

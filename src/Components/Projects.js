@@ -4,13 +4,17 @@ import React, { Component } from 'react';
 import ThreaderZZZ from '../images/projects/ThreaderZZZ.jpg';
 import Pickee from '../images/projects/Pickee.jpg';
 
-export default class Projects extends Component {
+class Projects extends Component {
+    constructor(props) {
+        super();
 
-    state = {
-        projectWrapperStyle: {
-            paddingTop: '7%',
-            marginLeft: '25%',
-        },
+        this.state = {
+            projectWrapperStyle: {
+                paddingTop: '7%',
+                marginLeft: '25%',
+            },
+        };
+
     };
 
     render() {
@@ -27,3 +31,5 @@ export default class Projects extends Component {
     };
 
 };
+
+export default Projects;

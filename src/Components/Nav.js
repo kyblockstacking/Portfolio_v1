@@ -2,21 +2,25 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Me from './Me';
 
-export default class Nav extends Component {
+class Nav extends Component {
+    constructor(props) {
+        super();
 
-    state = {
-        navStyle: {
-            position: 'fixed',
-            left: '0',
-            bottom: '0',
-            width: '100%',
-            backgroundColor: 'transparent',
-            padding: '3vh',
-        },
-        linkStyle: {
-            color: 'white',
-            float: 'right',
-        }
+        this.state = {
+            navStyle: {
+                position: 'fixed',
+                left: '0',
+                bottom: '0',
+                width: '100%',
+                backgroundColor: 'transparent',
+                padding: '3vh',
+            },
+            linkStyle: {
+                color: 'white',
+                float: 'right',
+            },
+        };
+
     };
 
     render() {
@@ -28,7 +32,11 @@ export default class Nav extends Component {
 
                     <Me />
 
-                    <Link to='LinkedIn' style={this.state.linkStyle}>Information</Link>
+                    <Link to='/ContactMe' style={this.state.linkStyle}>Contact Me</Link>
+
+                    <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
+
+                    <Link to='/Stack' style={this.state.linkStyle}>Stack</Link>
 
                     <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
@@ -36,7 +44,7 @@ export default class Nav extends Component {
 
                     <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                    <Link to='GitHub' style={this.state.linkStyle}>GitHub</Link>
+                    <Link to='/GitHub' style={this.state.linkStyle}>GitHub</Link>
 
                     <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
@@ -50,3 +58,5 @@ export default class Nav extends Component {
     };
 
 };
+
+export default Nav;

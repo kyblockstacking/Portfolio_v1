@@ -7,7 +7,8 @@ import Nav from './Components/Nav';
 import Home from './Components/Home';
 import GitHub from './Components/GitHub';
 import Projects from './Components/Projects';
-import Information from './Components/Information';
+import Stack from './Components/Stack';
+import ContactMe from './Components/ContactMe';
 
 const background = {
   backgroundImage: `url(${require("./images/background/background.jpg")})`,
@@ -28,7 +29,8 @@ class App extends Component {
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/GitHub' component={GitHub}></Route>
             <Route exact path='/Projects' component={Projects}></Route>
-            <Route exact path='/LinkedIn' component={Information}></Route>
+            <Route exact path='/Stack' component={Stack}></Route>
+            <Route exact path='/ContactMe' component={ContactMe}></Route>
           </Switch>
         </div>
       </Router>

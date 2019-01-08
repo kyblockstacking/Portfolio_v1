@@ -1,23 +1,29 @@
 import React, { Component } from 'react';
 import ProfilePicture from '../images/profile/me.JPG';
 
-const profilePictureStyle = {
-    maxHeight: '320px',
-    maxWidth: '260px',
-    margin: '0 15px 30px',
-    padding: '10px 10px',
-    textAlign: 'center',
-    background: 'white',
-    boxShadow: '0 4px 6px rgba(0,0,0,.3)',
-}
+class Me extends Component {
+    constructor(props) {
+        super();
 
-export default class Me extends Component {
+        this.state = {
+            aboutMeClass: 'col-lg-2',
+            aboutMeStyle: {
+                visibility: 'hidden',
+            },
+            profilePictureStyle: {
+                maxHeight: '320px',
+                maxWidth: '260px',
+                margin: '0 15px 30px',
+                padding: '10px 10px',
+                textAlign: 'center',
+                background: 'white',
+                boxShadow: '0 4px 6px rgba(0,0,0,.3)',
+            },
+        };
 
-    state = {
-        aboutMeClass: 'col-lg-2',
-        aboutMeStyle: {
-            visibility: 'hidden',
-        },
+        this.focusIn = this.focusIn.bind(this);
+        this.blurOut = this.blurOut.bind(this);
+
     };
 
     focusIn = () => {
@@ -28,6 +34,7 @@ export default class Me extends Component {
                 cursor: 'default',
                 fontWeight: 'bold',
                 color: 'teal',
+                textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'
             },
         });
     };
@@ -40,9 +47,9 @@ export default class Me extends Component {
 
     render() {
         return (
-            <div className='row' style={{zIndex: '1000'}}>
+            <div className='row' style={{ zIndex: '1000' }}>
 
-                <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid heartbeat' />
+                <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={this.state.profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid heartbeat' />
 
                 <p style={this.state.aboutMeStyle} className={this.state.aboutMeClass}>This is me! I am a developer named Kevin. Welcome to my site! :D</p>
 
@@ -50,3 +57,5 @@ export default class Me extends Component {
         );
     };
 };
+
+export default Me;

@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
-    state = {
-        homeStyle: {
-            textAlign: 'center',
-            paddingTop: '15%',
-            fontSize: '2em'
-        }
+class Home extends Component {
+    constructor(props) {
+        super();
+
+        this.state = {
+            homeStyle: {
+                textAlign: 'center',
+                paddingTop: '15%',
+                fontSize: '2em'
+            },
+
+        };
     };
 
     render() {
@@ -21,3 +26,5 @@ export default class Home extends Component {
         );
     };
 };
+
+export default Home;
