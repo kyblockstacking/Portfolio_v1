@@ -59,8 +59,8 @@
 
 .entire-content {
     margin: auto;
-    width: 190px;
-    perspective: 1000px;
+    width: 150px;
+    perspective: 900px;
     position: relative;
     padding-top: 80px;
 }
@@ -91,39 +91,47 @@
 }
 
 .content-carrousel figure:nth-child(2) {
-    transform: rotateY(40deg) translateZ(300px);
+    transform: rotateY(30deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(3) {
-    transform: rotateY(80deg) translateZ(300px);
+    transform: rotateY(60deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(4) {
-    transform: rotateY(120deg) translateZ(300px);
+    transform: rotateY(90deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(5) {
-    transform: rotateY(160deg) translateZ(300px);
+    transform: rotateY(120deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(6) {
-    transform: rotateY(200deg) translateZ(300px);
+    transform: rotateY(150deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(7) {
-    transform: rotateY(240deg) translateZ(300px);
+    transform: rotateY(180deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(8) {
-    transform: rotateY(280deg) translateZ(300px);
+    transform: rotateY(210deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(9) {
-    transform: rotateY(320deg) translateZ(300px);
+    transform: rotateY(240deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(10) {
-    transform: rotateY(360deg) translateZ(300px);
+    transform: rotateY(270deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(11) {
+    transform: rotateY(300deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(12) {
+    transform: rotateY(330deg) translateZ(300px);
 }
 
 .shadow {

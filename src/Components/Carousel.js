@@ -1,20 +1,38 @@
 import React from "react";
 
-class SimpleSlider extends React.Component {
+import Javascript_Logo from '../images/carousel/javascript.png';
+import React_Logo from '../images/carousel/react.png';
+import Node_Logo from '../images/carousel/node.png';
+import mySQL_Logo from '../images/carousel/mySQL.jpg';
+import MongoDB_Logo from '../images/carousel/mongoDB.png';
+import Bootstrap_Logo from '../images/carousel/bootstrap.png';
+import GitHub_Logo from '../images/carousel/github.png';
+import NPM_Logo from '../images/carousel/npm.png';
+import JQuery_Logo from '../images/carousel/jquery.png';
+
+import HTML_CSS_Logo from '../images/carousel/html_css.png';
+import Express_Logo from '../images/carousel/express.png';
+import Heroku_Logo from '../images/carousel/heroku.png';
+
+class Carousel extends React.Component {
+
     render() {
         return (
             <section id="slideshow">
-                <div class="entire-content">
-                    <div class="content-carrousel">
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/758733/pexels-photo-758733.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/21261/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/131046/pexels-photo-131046.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/302515/pexels-photo-302515.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/301682/pexels-photo-301682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-                        <figure class="shadow"><img src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+                <div className="entire-content fade-in-fwd">
+                    <div className="content-carrousel">
+                        <figure className="shadow"><img alt='Javascript logo' src={Javascript_Logo} /></figure>
+                        <figure className="shadow"><img alt='React logo' src={React_Logo} /></figure>
+                        <figure className="shadow"><img alt='Node logo' src={Node_Logo} /></figure>
+                        <figure className="shadow"><img alt='MySQL logo' src={mySQL_Logo} /></figure>
+                        <figure className="shadow"><img alt='MongoDB logo' src={MongoDB_Logo} /></figure>
+                        <figure className="shadow"><img alt='Bootstrap logo' src={Bootstrap_Logo} /></figure>
+                        <figure className="shadow"><img alt='GitHub logo' src={GitHub_Logo} /></figure>
+                        <figure className="shadow"><img alt='NPM logo' src={NPM_Logo} /></figure>
+                        <figure className="shadow"><img alt='HTML&CSS Logo' src={HTML_CSS_Logo} /></figure>
+                        <figure className="shadow"><img alt='JQuery logo' src={JQuery_Logo} /></figure>
+                        <figure className="shadow"><img alt='Expres logo' src={Express_Logo} /></figure>
+                        <figure className="shadow"><img alt='Heroku logo' src={Heroku_Logo} /></figure>
                     </div>
                 </div>
             </section>
@@ -22,4 +40,4 @@ class SimpleSlider extends React.Component {
     }
 }
 
-export default SimpleSlider;
+export default Carousel;
