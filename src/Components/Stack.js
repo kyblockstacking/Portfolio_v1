@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Carousel from './Carousel';
 
 class Stack extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class Stack extends Component {
     render() {
         return (
             <div>
-                Stack
+                <Carousel />
             </div>
         );
     };
