@@ -7,9 +7,8 @@ import mySQL_Logo from '../images/carousel/mySQL.jpg';
 import MongoDB_Logo from '../images/carousel/mongoDB.png';
 import Bootstrap_Logo from '../images/carousel/bootstrap.png';
 import GitHub_Logo from '../images/carousel/github.png';
-import NPM_Logo from '../images/carousel/npm.png';
+import Yarn_Logo from '../images/carousel/yarn.jpg';
 import JQuery_Logo from '../images/carousel/jquery.png';
-
 import HTML_CSS_Logo from '../images/carousel/html_css.png';
 import Express_Logo from '../images/carousel/express.png';
 import Heroku_Logo from '../images/carousel/heroku.png';
@@ -28,7 +27,7 @@ class Carousel extends React.Component {
                         <figure className="shadow"><img alt='MongoDB logo' src={MongoDB_Logo} /></figure>
                         <figure className="shadow"><img alt='Bootstrap logo' src={Bootstrap_Logo} /></figure>
                         <figure className="shadow"><img alt='GitHub logo' src={GitHub_Logo} /></figure>
-                        <figure className="shadow"><img alt='NPM logo' src={NPM_Logo} /></figure>
+                        <figure className="shadow"><img alt='Yarn logo' src={Yarn_Logo} /></figure>
                         <figure className="shadow"><img alt='HTML&CSS Logo' src={HTML_CSS_Logo} /></figure>
                         <figure className="shadow"><img alt='JQuery logo' src={JQuery_Logo} /></figure>
                         <figure className="shadow"><img alt='Expres logo' src={Express_Logo} /></figure>

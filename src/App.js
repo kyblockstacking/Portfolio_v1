@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // CSS
-import './App.css';
+import './CSS/Animista.css';
 import './CSS/Carousel.css';
 import './CSS/Polaroid.css';
 import './CSS/Paper.css';
