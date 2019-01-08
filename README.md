@@ -3,7 +3,7 @@ hello :)
 
 to do:
 - information
-- contact
+- contact me
 - mobile
 
 
