@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+// CSS
 import './App.css';
-import './Carousel.css';
+import './CSS/Carousel.css';
+import './CSS/Polaroid.css';
+import './CSS/Paper.css';
 
 // Components
 import Nav from './Components/Nav';
@@ -11,6 +15,7 @@ import Projects from './Components/Projects';
 import Stack from './Components/Stack';
 import ContactMe from './Components/ContactMe';
 
+// Background image
 const background = {
   backgroundImage: `url(${require("./images/background/background.jpg")})`,
   width: '100%',
