@@ -6,7 +6,9 @@
 
 <hr/>
 
-<h5>You can visit my deployed site <a  href='https://kevinyang.herokuapp.com/'  target='_blank'>here</a>.</h5>
+<h5>You can visit my deployed site <a  href='https://kevinyang.herokuapp.com/' target='_blank'>here</a>.</h5>
+
+<h5>Hosted by <a href='https://www.heroku.com/' target='_blank'>Heroku</a></h5>
 
 <hr/>
 
@@ -36,10 +38,11 @@
 
 <h3>Tools Used</h3>
 
-- React
-- Bootstrap
+- <a href='https://reactjs.org/' target='_blank'>React</a>
+- <a href='https://getbootstrap.com/' target='_blank'>Bootstrap</a>
 - react-router-dom
-- Animista
-- Google Fonts
-- Font Awesome
+- <a href='http://animista.net/' target='_blank'>Animista</a>
+- <a href='https://fonts.google.com/' target='_blank'>Google Fonts</a>
+- <a href='https://fontawesome.com/ target='_blank'>Font Awesome</a>
+- <a href='https://www.heroku.com/' target='_blank'>Heroku</a>
 - Languages: Javascript, JSX, HTML, CSS
