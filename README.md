@@ -2,7 +2,7 @@
 
 <h6>This page is not yet fully mobile-responsive! (I am working on it)</h6>
 
-<h6>Please view this on a full-screen desktop browser for best results</h6>
+<h6>Please view this on a full-screen desktop browser for best results.</h6>
 
 <h3>Welcome! My portfolio page is built with React.</h3>
 
@@ -12,7 +12,7 @@
 
 <h5>You can visit my deployed site <a  href='https://kevinyang.herokuapp.com/' target='_blank'>here</a>.</h5>
 
-<h5>Hosted by <a href='https://www.heroku.com/' target='_blank'>Heroku</a></h5>
+<h5>Hosted by <a href='https://www.heroku.com/' target='_blank'>Heroku</a>.</h5>
 
 <hr/>
 
@@ -63,4 +63,4 @@ Positions?
 
 Want to be friends?
 
-email me kevin1992yang@gmail.com
+email me @kevin1992yang@gmail.com
