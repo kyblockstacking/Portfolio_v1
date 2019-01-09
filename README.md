@@ -10,11 +10,11 @@
 
 <h3>Installing Dependencies<h3>
 
-<h5>npm install</h5>
+<h5>$ npm install</h5>
 
 <h5>or</h5>
 
-<h5>yarn install (recommended with React)</h5>
+<h5>$ yarn install (recommended with React)</h5>
 
 <hr/>
 
@@ -22,8 +22,10 @@
 
 <h5>$ git clone https://github.com/kyblockstacking/KevinYang.git</h5>
 
+<h5>$ cd KevinYang</h5>
+
 <h5>$ yarn install</h5>
 
 <h5>$ yarn start</h5>
 
-<h5>-- view on localhost: 3000</h5>
+<h5>-- view on localhost:3000</h5>
