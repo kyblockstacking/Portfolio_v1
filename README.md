@@ -45,4 +45,15 @@
 - <a href='https://fonts.google.com/' target='_blank'>Google Fonts</a>
 - <a href='https://fontawesome.com/' target='_blank'>Font Awesome</a>
 - <a href='https://www.heroku.com/' target='_blank'>Heroku</a>
-- Languages: Javascript, JSX, HTML, CSS
+- Languages: JavaScript, JSX, HTML, CSS
+
+<hr/>
+
+<h3>Contact Me</h3>
+
+Collaborations?
+Suggestions?
+Positions?
+Want to be friends?
+
+email me kevin1992yang@gmail.com
