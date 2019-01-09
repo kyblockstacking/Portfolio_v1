@@ -10,15 +10,23 @@
 <hr/>
 
 <h3>Installing Dependencies</h3>
+
 ```$ npm install```
+
 <h5>or</h5>
+
 ```$ yarn install (recommended with React)```
 
 <hr/>
 
 <h3>View on localhost</h3>
+
 <h5>$ git clone https://github.com/kyblockstacking/KevinYang.git</h5>
+
 ```$ cd KevinYang```
+
 ```$ yarn install```
+
 ```$ yarn start```
+
 <h5>-- view on localhost:3000</h5>
