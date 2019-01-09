@@ -23,7 +23,7 @@
 
   
 
-```$ npm install```
+<h5>```$ npm install```<h5>
 
   
 
@@ -31,7 +31,7 @@
 
   
 
-```$ yarn install (recommended with React)```
+<h5>```$ yarn install (recommended with React)```<h5>
 
   
 
@@ -47,15 +47,15 @@
 
   
 
-```$ cd KevinYang```
+<h5>```$ cd KevinYang```<h5>
 
   
 
-```$ yarn install```
+<h5>```$ yarn install```<h5>
 
   
 
-```$ yarn start```
+<h5>```$ yarn start```<h5>
 
   
 
