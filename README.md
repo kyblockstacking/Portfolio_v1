@@ -40,9 +40,9 @@
 
 - <a href='https://reactjs.org/' target='_blank'>React</a>
 - <a href='https://getbootstrap.com/' target='_blank'>Bootstrap</a>
-- react-router-dom
+- <a href='https://www.npmjs.com/package/react-router-dom' target='_blank'>react-router-dom</a>
 - <a href='http://animista.net/' target='_blank'>Animista</a>
 - <a href='https://fonts.google.com/' target='_blank'>Google Fonts</a>
-- <a href='https://fontawesome.com/ target='_blank'>Font Awesome</a>
+- <a href='https://fontawesome.com/' target='_blank'>Font Awesome</a>
 - <a href='https://www.heroku.com/' target='_blank'>Heroku</a>
 - Languages: Javascript, JSX, HTML, CSS
