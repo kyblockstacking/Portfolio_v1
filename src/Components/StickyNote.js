@@ -22,7 +22,7 @@ class StickyNote extends Component {
 
     render() {
         return (
-            <div className='postit' style={this.state.style}>
+            <div className={this.props.className} style={this.state.style}>
                 <br />
                 <span>{this.props.text}</span>
                 <br />

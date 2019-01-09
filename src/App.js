@@ -7,6 +7,7 @@ import './CSS/Carousel.css';
 import './CSS/Polaroid.css';
 import './CSS/Paper.css';
 import './CSS/IndexCard.css';
+import './CSS/Post-It.css';
 
 // Components
 import Nav from './Components/Nav';

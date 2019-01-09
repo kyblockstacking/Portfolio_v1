@@ -59,9 +59,9 @@ class AboutMe extends Component {
                     </ul>
                 </div >
 
-                <StickyNote href='' margin='2% 10% 0 0' fontAwesome='fas fa-id-card' color='#feff9c' text='View my resume!' />
-                <StickyNote href='https://linkedin.com/in/hellokevinyang' margin='15% 10% 0 0' fontAwesome='fab fa-linkedin' color='#7afcff' text='Visit my LinkedIn profile!' />
-                <StickyNote href='https://github.com/kyblockstacking' margin='28% 10% 0 0' fontAwesome='fab fa-github' color='#ff7eb9' text='Visit my GitHub page!' />
+                <StickyNote className='slide-in-top1' href='' margin='2% 10% 0 0' fontAwesome='fas fa-id-card' color='#feff9c' text='View my resume!' />
+                <StickyNote className='slide-in-top2' href='https://linkedin.com/in/hellokevinyang' margin='15% 10% 0 0' fontAwesome='fab fa-linkedin' color='#7afcff' text='Visit my LinkedIn profile!' />
+                <StickyNote className='slide-in-top3' href='https://github.com/kyblockstacking' margin='28% 10% 0 0' fontAwesome='fab fa-github' color='#ff7eb9' text='Visit my GitHub page!' />
 
             </div>
         );
