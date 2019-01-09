@@ -21,7 +21,7 @@
 
 <h3>View on localhost</h3>
 
-<h5>$ git clone https://github.com/kyblockstacking/KevinYang.git</h5>
+```$ git clone https://github.com/kyblockstacking/KevinYang.git```
 
 ```$ cd KevinYang```
 
