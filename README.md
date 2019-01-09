@@ -18,7 +18,7 @@
 
 <hr/>
 
-<h3>View on localhost</h3>
+<h3>View On Localhost</h3>
 
 ```$ git clone https://github.com/kyblockstacking/KevinYang.git```
 
