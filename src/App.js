@@ -10,7 +10,7 @@ import './CSS/Paper.css';
 // Components
 import Nav from './Components/Nav';
 import Home from './Components/Home';
-import GitHub from './Components/GitHub';
+import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Stack from './Components/Stack';
 import ContactMe from './Components/ContactMe';
@@ -33,7 +33,7 @@ class App extends Component {
           <Nav />
           <Switch>
             <Route exact path='/' component={Home}></Route>
-            <Route exact path='/GitHub' component={GitHub}></Route>
+            <Route exact path='/AboutMe' component={AboutMe}></Route>
             <Route exact path='/Projects' component={Projects}></Route>
             <Route exact path='/Stack' component={Stack}></Route>
             <Route exact path='/ContactMe' component={ContactMe}></Route>

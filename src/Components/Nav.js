@@ -44,7 +44,7 @@ class Nav extends Component {
 
                     <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 
-                    <Link to='/GitHub' style={this.state.linkStyle}>GitHub</Link>
+                    <Link to='/AboutMe' style={this.state.linkStyle}>About Me</Link>
 
                     <span style={this.state.linkStyle}>&nbsp;|&nbsp;</span>
 

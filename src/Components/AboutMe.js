@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GitHub extends Component {
+class AboutMe extends Component {
     constructor(props) {
         super();
 
@@ -62,4 +62,4 @@ class GitHub extends Component {
 
 };
 
-export default GitHub;
+export default AboutMe;
