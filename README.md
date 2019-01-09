@@ -52,8 +52,11 @@
 <h3>Contact Me</h3>
 
 Collaborations?
+
 Suggestions?
+
 Positions?
+
 Want to be friends?
 
 email me kevin1992yang@gmail.com
