@@ -42,9 +42,4 @@
 - Animista
 - Google Fonts
 - Font Awesome
-
-<h3>Languages</h3>
-- Javascript
-- JSX
-- HTML
-- CSS
+- Languages: Javascript, JSX, HTML, CSS
