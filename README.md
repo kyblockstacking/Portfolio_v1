@@ -37,11 +37,14 @@
 <h3>Tools Used</h3>
 
 - React
-- Javascript
-- HTML
-- CSS
-- JSX
+- Bootstrap
 - react-router-dom
 - Animista
 - Google Fonts
 - Font Awesome
+
+<h3>Languages</h3>
+- Javascript
+- JSX
+- HTML
+- CSS
