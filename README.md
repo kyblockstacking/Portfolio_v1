@@ -2,6 +2,8 @@
 
 <h6>This page is not yet fully mobile-responsive! (I am working on it)</h6>
 
+<h6>Please view this on a full-screen desktop browser for best results</h6>
+
 <h3>Welcome! My portfolio page is built with React.</h3>
 
 <h4>The purpose of this web page is to display some of the many things I can do and for people to see my personality implemented through programming.</h4>
