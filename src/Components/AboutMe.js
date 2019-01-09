@@ -32,9 +32,11 @@ class AboutMe extends Component {
             <div style={{ padding: '2%' }} className='paper slide-in-elliptic-bottom-fwd'>
                 <div className='lines' />
                 <ul className='list'>
-                    <li style={{ padding: '1.2em' }}>My GitHub</li>
-                    <li>PUT</li>
-                    <li>SOMETHING</li>
+                    <li style={{ padding: '1.2em'}}>
+                    <span style={{padding: '0', fontSize: '2em'}}>About Me</span>
+                    <span style={{float: 'right', fontSize: '1em'}}>Kevin Yang</span></li>
+                    <li>Hello. My name is Kevin Yang and I am a full</li>
+                    <li>stack web developer.</li>
                     <li>ABOUT</li>
                     <li>YOUR</li>
                     <li>GITHUB</li>

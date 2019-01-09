@@ -1,4 +1,4 @@
-/* STYLE 'GITHUB' COMPONENT TO LOOK LIKE A PIECE OF PAPER */
+/* STYLE 'ABOUTME' COMPONENT TO LOOK LIKE A PIECE OF PAPER */
 
 .paper {
     background-color: transparent;
@@ -22,7 +22,6 @@
     text-indent: 25px;
     height: auto;
     padding: 1px;
-    text-transform: capitalize;
 }
 
 .list li:hover {
