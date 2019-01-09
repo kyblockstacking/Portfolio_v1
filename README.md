@@ -1,7 +1,5 @@
 <h1>KEVIN YANG'S PORTFOLIO PAGE</h1>
 
-<hr/>
-
 <h3>Welcome! My portfolio page is built with React.</h3>
 
 <h4>The purpose of this web page is to display some of the many things I can do and for people to see my personality implemented through programming.</h4>
