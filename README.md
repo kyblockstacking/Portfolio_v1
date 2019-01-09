@@ -1,4 +1,3 @@
-
 <h3>Welcome! My portfolio page is built with React.</h3>
 
 <h4>The purpose of this web page is to display some of the many things I can do and for people to see my personality implemented through programming.</h4>
@@ -30,3 +29,17 @@
 ```$ yarn start```
 
 <h5>-- view on localhost:3000</h5>
+
+<hr/>
+
+<h3>Tools Used</h3>
+
+- React
+- Javascript
+- HTML
+- CSS
+- JSX
+- react-router-dom
+- Animista
+- Google Fonts
+- Font Awesome
