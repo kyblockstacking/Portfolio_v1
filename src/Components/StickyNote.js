@@ -27,7 +27,7 @@ class StickyNote extends Component {
                 <span>{this.props.text}</span>
                 <br />
                 <br />
-                <a style={{ color: 'inherit', textDecoration: 'none', fontSize: '4em' }} target='_blank' href={this.props.href} className={this.props.fontAwesome}></a>
+                <a style={{ color: 'inherit', textDecoration: 'none', fontSize: '4em' }} target='_blank' rel="noopener noreferrer" href={this.props.href} className={this.props.fontAwesome}></a>
             </div>
         );
     };

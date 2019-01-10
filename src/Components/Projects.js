@@ -22,8 +22,8 @@ class Projects extends Component {
             <div className='projectWrapper fade-in-fwd' style={this.state.projectWrapperStyle}>
 
                 <div className="polaroid-images">
-                    <a href="https://kyblockstacking.github.io/Pickee/" title="Pickee"><img className='flip-in-hor-bottom' height="200" src={Pickee} alt="Pickee" title="Pickee" /></a>
-                    <a href="https://threaderzzz.herokuapp.com/" title="ThreaderZZZ"><img className='flip-in-hor-bottom' height="200" src={ThreaderZZZ} alt="ThreaderZZZ" title="ThreaderZZZ" /></a>
+                    <a href="https://kyblockstacking.github.io/Pickee/" target='_blank' rel="noopener noreferrer" title="Pickee"><img className='flip-in-hor-bottom' height="200" src={Pickee} alt="Pickee" title="Pickee" /></a>
+                    <a href="https://threaderzzz.herokuapp.com/" target='_blank' rel="noopener noreferrer" title="ThreaderZZZ"><img className='flip-in-hor-bottom' height="200" src={ThreaderZZZ} alt="ThreaderZZZ" title="ThreaderZZZ" /></a>
                 </div>
 
             </div>
