@@ -22,7 +22,7 @@
 
 <h5>or</h5>
 
-```$ yarn install (recommended with React)```
+```$ yarn install``` (recommended with React)
 
 <hr/>
 
@@ -60,6 +60,8 @@ Collaborations?
 Suggestions?
 
 Positions?
+
+Opportunities?
 
 Want to be friends?
 
