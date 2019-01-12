@@ -38,7 +38,7 @@ class AboutMe extends Component {
                         <li>&nbsp;&nbsp;&nbsp;My name is Kevin Yang and I am a full</li>
                         <li>stack web developer. I love to design and</li>
                         <li>make visually appealing application pages.</li>
-                        <li>&nbsp;&nbsp;&nbsp;With my creativity and imgination,</li>
+                        <li>&nbsp;&nbsp;&nbsp;With my creativity and imagination,</li>
                         <li>I strive to make beautiful, user friendly,</li>
                         <li>and functional designs. Although I have an</li>
                         <li>inclination towards design, I am also</li>
