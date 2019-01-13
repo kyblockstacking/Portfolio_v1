@@ -14,6 +14,7 @@ class Nav extends Component {
                 width: '100%',
                 backgroundColor: 'transparent',
                 padding: '3vh',
+                zIndex: '100',
             },
             linkStyle: {
                 color: 'white',

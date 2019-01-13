@@ -20,11 +20,11 @@ import ContactMe from './Components/ContactMe';
 // Background image
 const background = {
   backgroundImage: `url(${require("./images/background/background.jpg")})`,
-  width: '100%',
+  width: '100vw',
   height: '100vh',
   backgroundSize: '100% 100%',
   backgroundRepeat: 'no-repeat',
-  overflow: 'hidden',
+  overflow: 'auto',
 };
 
 class App extends Component {
