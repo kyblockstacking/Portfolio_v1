@@ -14,7 +14,7 @@ class ContactMe extends Component {
 
     render() {
         return (
-            <div style={this.state.indexCard} className='index-card slide-in-left'>
+            <div style={this.state.indexCard} className='IndexCardWrapper index-card slide-in-left'>
                 <ul className='index-list'>
                     <li style={{ border: 'none', padding: '0.75em', textAlign: 'center' }}>Contact Information</li>
                     <li style={{ borderTop: '3px double #c93030', textAlign: 'center' }}>Full Stack Web Developer</li>

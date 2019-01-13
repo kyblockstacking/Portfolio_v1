@@ -14,7 +14,6 @@ class Nav extends Component {
                 width: '100%',
                 backgroundColor: 'transparent',
                 padding: '3vh',
-                zIndex: '100',
             },
             linkStyle: {
                 color: 'white',
@@ -27,7 +26,7 @@ class Nav extends Component {
     render() {
         return (
 
-            <div className='tracking-in-contract' style={this.state.navStyle}>
+            <div className='NavWrapper tracking-in-contract' style={this.state.navStyle}>
 
                 <div>
 

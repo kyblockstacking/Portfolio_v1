@@ -16,12 +16,12 @@ class Home extends Component {
 
     render() {
         return (
-            <div className='homeWrapper' style={this.state.homeStyle}>
-                <span className='slide-in-top'>H</span>
-                <span className='slide-in-top2'>E</span>
-                <span className='slide-in-top3'>L</span>
-                <span className='slide-in-top4'>L</span>
-                <span className='slide-in-top5'>O</span>
+            <div className='HomeWrapper tracking-in-expand' style={this.state.homeStyle}>
+                <span>H</span>
+                <span>E</span>
+                <span>L</span>
+                <span>L</span>
+                <span>O</span>
             </div>
         );
     };

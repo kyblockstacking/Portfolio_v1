@@ -19,7 +19,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className='projectWrapper fade-in-fwd' style={this.state.projectWrapperStyle}>
+            <div className='ProjectsWrapper fade-in-fwd' style={this.state.projectWrapperStyle}>
 
                 <div className="polaroid-images">
                     <a href="https://kyblockstacking.github.io/Pickee/" target='_blank' rel="noopener noreferrer" title="Pickee"><img className='flip-in-hor-bottom' height="200" src={Pickee} alt="Pickee" title="Pickee" /></a>

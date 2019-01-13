@@ -28,7 +28,7 @@ class AboutMe extends Component {
     render() {
 
         return (
-            <div>
+            <div className='AboutMeWrapper'>
                 <div style={this.state.paper} className='paper slide-in-elliptic-bottom-fwd'>
                     <div className='lines' />
                     <ul className='list'>
@@ -59,9 +59,9 @@ class AboutMe extends Component {
                     </ul>
                 </div >
 
-                <StickyNote className='slide-in-top1' href='https://docdro.id/DwNe5ya' margin='2% 10% 0 0' fontAwesome='fas fa-id-card' color='#feff9c' text='View my resume!' />
-                <StickyNote className='slide-in-top2' href='https://linkedin.com/in/hellokevinyang' margin='15% 10% 0 0' fontAwesome='fab fa-linkedin' color='#7afcff' text='Visit my LinkedIn profile!' />
-                <StickyNote className='slide-in-top3' href='https://github.com/kyblockstacking' margin='28% 10% 0 0' fontAwesome='fab fa-github' color='#ff7eb9' text='Visit my GitHub page!' />
+                <StickyNote className='StickyNote slide-in-top1' href='https://docdro.id/DwNe5ya' margin='2% 10% 0 0' fontAwesome='fas fa-id-card' color='#feff9c' text='View my resume!' />
+                <StickyNote className='StickyNote slide-in-top2' href='https://linkedin.com/in/hellokevinyang' margin='15% 10% 0 0' fontAwesome='fab fa-linkedin' color='#7afcff' text='Visit my LinkedIn profile!' />
+                <StickyNote className='StickyNote slide-in-top3' href='https://github.com/kyblockstacking' margin='28% 10% 0 0' fontAwesome='fab fa-github' color='#ff7eb9' text='Visit my GitHub page!' />
 
             </div>
         );

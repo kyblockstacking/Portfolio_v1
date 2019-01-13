@@ -47,7 +47,7 @@ class Me extends Component {
 
     render() {
         return (
-            <div className='row' style={{ zIndex: '1000' }}>
+            <div className='MeWrapper row' style={{zIndex: '-100'}}>
 
                 <img title='Kevin Yang' onMouseEnter={this.focusIn} onMouseOut={this.blurOut} style={this.state.profilePictureStyle} src={ProfilePicture} alt="profile" className='col-lg-1 polaroid heartbeat' />
 

@@ -5,7 +5,7 @@ class Stack extends Component {
     
     render() {
         return (
-            <div>
+            <div className='StackWrapper'>
                 <Carousel />
             </div>
         );
