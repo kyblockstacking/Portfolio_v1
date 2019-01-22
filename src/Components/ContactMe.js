@@ -22,7 +22,7 @@ class ContactMe extends Component {
                     <li>Name: Kevin Yang</li>
                     <li>Email: kevin1992yang@gmail.com</li>
                     <li>Mobile: (626) 297-6229</li>
-                    <li>LinkedIn: <a target='_blank' rel="noopener noreferrer" href='https://linkedin.com/in/hellokevinyang'>https://linkedin.com/in/hellokevinyang</a></li>
+                    <li>LinkedIn: <a target='_blank' rel="noopener noreferrer" href='https://linkedin.com/in/kevinyang92'>https://linkedin.com/in/hellokevinyang</a></li>
                     <li>GitHub: <a target='_blank' rel="noopener noreferrer" href='https://github.com/kyblockstacking'>https://github.com/kyblockstacking</a></li>
                     <li style={{ borderBottom: 'none' }}>&nbsp;</li>
                 </ul>
