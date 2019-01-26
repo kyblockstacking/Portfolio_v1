@@ -20,7 +20,7 @@ class Home extends Component {
             <div className='HomeWrapper tracking-in-expand' style={this.state.homeStyle}>
                 <span style={{ fontFamily: "'Major Mono Display', cursive", fontSize: '1.3em', fontWeight: 'bold', textShadow: '2px 2px #36454f' }}>kevin yang</span>
                 <br />
-                <span style={{ fontFamily: "'Major Mono Display', cursive", textShadow: '2px 2px #36454f' }}>full stack developer</span>
+                <span style={{ fontFamily: "'Major Mono Display', cursive", textShadow: '2px 2px #36454f' }}>full-stack web developer</span>
             </div>
         );
     };
