@@ -26,7 +26,7 @@ class Nav extends Component {
     render() {
         return (
 
-            <div className='tracking-in-contract' style={this.state.navStyle}>
+            <div className='NavWrapper tracking-in-contract' style={this.state.navStyle}>
 
                 <div>
 

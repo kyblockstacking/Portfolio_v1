@@ -17,7 +17,7 @@ class Carousel extends React.Component {
 
     render() {
         return (
-            <section id="slideshow">
+            <section id="slideshow" className='CarouselWrapper'>
                 <div className="entire-content fade-in-fwd">
                     <div className="content-carrousel">
                         <figure className="shadow"><img alt='Javascript logo' src={Javascript_Logo} /></figure>

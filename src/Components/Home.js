@@ -8,7 +8,8 @@ class Home extends Component {
             homeStyle: {
                 textAlign: 'center',
                 paddingTop: '15%',
-                fontSize: '2em'
+                fontSize: '2em',
+                color: '#0892d0',
             },
 
         };
@@ -16,12 +17,10 @@ class Home extends Component {
 
     render() {
         return (
-            <div className='homeWrapper' style={this.state.homeStyle}>
-                <span className='slide-in-top'>H</span>
-                <span className='slide-in-top2'>E</span>
-                <span className='slide-in-top3'>L</span>
-                <span className='slide-in-top4'>L</span>
-                <span className='slide-in-top5'>O</span>
+            <div className='HomeWrapper tracking-in-expand' style={this.state.homeStyle}>
+                <span style={{ fontFamily: "'Major Mono Display', cursive", fontSize: '1.3em', fontWeight: 'bold', textShadow: '2px 2px #36454f' }}>kevin yang</span>
+                <br />
+                <span style={{ fontFamily: "'Major Mono Display', cursive", textShadow: '2px 2px #36454f' }}>full-stack web developer</span>
             </div>
         );
     };
