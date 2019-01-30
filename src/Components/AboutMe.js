@@ -59,7 +59,7 @@ class AboutMe extends Component {
                     </ul>
                 </div >
 
-                <a href='https://www.docdroid.net/KFxLGxY/resume-kevin-yang.pdf' target='_blank' rel="noopener noreferrer">
+                <a href='https://www.docdroid.net/gUWNH36/kevinyang-resume.pdf' target='_blank' rel="noopener noreferrer">
                     <StickyNote className='StickyNote slide-in-top1' margin='1% 10% 0 0' fontAwesome='fas fa-id-card' color='#feff9c' text='View my resume!' />
                 </a>
 
